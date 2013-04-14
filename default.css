@@ -1,5 +1,5 @@
 body {
-  background: #373737;
+  background: #1F1F1F;
   color:#e5e5e5;
   font:86% 'lucida grande','lucida sans unicode',Verdana,Tahoma,Arial,sans-serif;
   line-height:1.2em;
@@ -190,6 +190,10 @@ div.pages {
 
 .page {
   color: #c6e567;
+}
+
+.page.external {
+  color: #9C6AB0;
 }
 
 a.page:hover {
