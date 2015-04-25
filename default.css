@@ -14,7 +14,8 @@ a {
 }
 
 a:hover {
-  color: #c6e567;
+  color:#fba919;
+/*  color: #c6e567;*/
 }
 
 a img {
@@ -112,9 +113,8 @@ h1 {
   color:#0383c9;
   font-size:4.7em;
   letter-spacing:-5px;
-  margin:0 0 30px 0px;
+  margin:0 0 5px 0px;
   padding:50px 0 0 0;;
-
 }
 
 h1 a {
@@ -122,7 +122,9 @@ h1 a {
   text-transform:none;
 }
 
-h1 a:hover { color:#fba919;}
+h1 a:hover {
+  color:#fba919;
+}
 
 .publish_date {
   margin-top:-8px;
@@ -176,7 +178,14 @@ h4 {
 
 #header {
   margin:0;
+}
 
+#sub-header {
+/*  color: #23af4c;*/
+/*  color: #B75E00;*/
+  color: #808080;
+  margin: 0 0 0 380;
+  padding: 0;
 }
 
 div.pages {
@@ -184,12 +193,16 @@ div.pages {
   font-size:1.5em;
   font-weight:700;
   letter-spacing:-1px;
-  line-height:1.2em;
-  margin:-15px 0 60px 0px;
+/*  line-height:1.2em;*/
+  margin: 20px 0 60px 0px;
 }
 
 .page {
   color: #c6e567;
+}
+
+a.external:hover {
+  color: #9C6AB0;
 }
 
 a.page.external:hover {
@@ -241,7 +254,9 @@ div.pages div { display:inline;}
 }
 
 .fade {
-  color:#c5c5c5;
+/*  color:#c5c5c5;*/
+/*    color: #23af4c;*/
+  color: #B75E00;
 }
 
 .fade-small {
