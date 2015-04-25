@@ -192,7 +192,7 @@ div.pages {
   color: #c6e567;
 }
 
-.page.external {
+a.page.external:hover {
   color: #9C6AB0;
 }
 
